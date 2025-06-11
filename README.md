@@ -10,4 +10,5 @@ npx shadcn@latest add separator
 npx shadcn@latest add sheet
 npx shadcn@latest add tabs
 npx shadcn@latest add skeleton
+npx shadcn@latest add sonner
 ```
