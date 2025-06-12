@@ -18,7 +18,7 @@ export const CartItemQuantity = ({ cartItem }: Props) => {
     };
 
     return (
-        <div>
+        <div className="flex items-center gap-2">
             <Button
                 onClick={handlePlusButton}
                 variant="outline"

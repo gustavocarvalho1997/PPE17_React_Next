@@ -14,4 +14,6 @@ npx shadcn@latest add sonner
 npm i zustand
 npx shadcn@latest add dialog
 npx shadcn@latest add progress
+npx shadcn@latest add form
+npx shadcn@latest add input
 ```

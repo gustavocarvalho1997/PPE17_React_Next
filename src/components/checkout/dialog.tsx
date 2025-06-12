@@ -11,8 +11,7 @@ import { useState } from "react";
 import { StepUser } from "@/components/checkout/step-user";
 import { StepAddress } from "@/components/checkout/step-address";
 import { StepFinish } from "@/components/checkout/step-finish";
-
-type Steps = "user" | "address" | "finish";
+import { CheckoutSteps } from "@/types/checkout-steps";
 
 type Props = {
     open: boolean;
@@ -20,7 +19,7 @@ type Props = {
 };
 
 export const CheckoutDialog = ({ open, onOpenChange }: Props) => {
-    const [step, setStep] = useState<Steps>("user");
+    const [step, setStep] = useState<CheckoutSteps>("user");
     let progressPct = 0;
     switch (step) {
         case "user":
