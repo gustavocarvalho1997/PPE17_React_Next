@@ -12,4 +12,6 @@ npx shadcn@latest add tabs
 npx shadcn@latest add skeleton
 npx shadcn@latest add sonner
 npm i zustand
+npx shadcn@latest add dialog
+npx shadcn@latest add progress
 ```
